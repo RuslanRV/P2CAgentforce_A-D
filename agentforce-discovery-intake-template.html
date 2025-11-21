@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Agentforce Discovery — Intake Template & Artifact Checklist</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:20px; color:#111; }
+    header { border-bottom:1px solid #e1e4e8; margin-bottom:12px; padding-bottom:8px; }
+    h1 { margin:0 0 6px 0; font-size:24px; }
+    h2 { margin-top:16px; font-size:18px; }
+    p { margin:8px 0; }
+    ul, ol { margin:8px 0 14px 20px; }
+    .section { border:1px solid #e1e4e8; padding:12px; border-radius:8px; margin-bottom:12px; background:#fff; }
+    .meta { color:#586069; font-size:13px; }
+    pre { background:#f6f8fa; padding:10px; border-radius:6px; overflow:auto; }
+    code { background:#f6f8fa; padding:2px 6px; border-radius:4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agentforce Discovery — Intake Template & Artifact Checklist</h1>
+    <p class="meta">Use this template to collect artifacts and access details from stakeholders before or during discovery. Provide items in shared drive or attach to a ticket.</p>
+  </header>
+
+  <section class="section">
+    <h2>General project info</h2>
+    <ul>
+      <li>Project name: Agentforce</li>
+      <li>Sponsor / Product owner: [name, email]</li>
+      <li>Primary technical contact: [name, email]</li>
+      <li>Business contact for decisions: [name, email]</li>
+      <li>Desired go-live / milestone dates: [dates]</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Priority & scope (fill & sign-off)</h2>
+    <p>Top 3 business objectives:</p>
+    <ol>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+    </ol>
+
+    <p>MVP features (top 8, prioritized):</p>
+    <ol>
+      <li>(Must-have)</li>
+      <li>(Must-have)</li>
+      <li>(Should)</li>
+      <li>...</li>
+    </ol>
+
+    <p>Acceptance owner and criteria (owner + short list of tests)</p>
+  </section>
+
+  <section class="section">
+    <h2>Environments & deployment</h2>
+    <ul>
+      <li>Hosting preference: cloud provider / on-prem / hybrid</li>
+      <li>Required environments: dev / test / staging / production</li>
+      <li>CI/CD / deployment process owner & docs (link)</li>
+      <li>Backup & DR expectations (RTO / RPO)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Authentication & Access</h2>
+    <ul>
+      <li>Identity provider(s) (IdP): name + metadata URL</li>
+      <li>Required auth methods: SSO SAML/OIDC, OAuth, MFA</li>
+      <li>Admin accounts and provisioning process</li>
+      <li>Test accounts for each persona (username/password or SSO test user)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Integrations & APIs</h2>
+    <p>For each integration provide:</p>
+    <ul>
+      <li>System name:</li>
+      <li>Owner/contact:</li>
+      <li>API docs link:</li>
+      <li>Auth type:</li>
+      <li>Endpoints required:</li>
+      <li>Rate limits:</li>
+      <li>Sandbox available? (Y/N)</li>
+      <li>Expected data volume & frequency (e.g., 1000 leads/day, real-time webhook)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Data & Migration</h2>
+    <ul>
+      <li>Systems to migrate from (names/DBs):</li>
+      <li>Data volume estimates (rows, GB):</li>
+      <li>Sample export (attach CSV/JSON): [file link]</li>
+      <li>Data quality issues known (duplicates, missing fields):</li>
+      <li>Mapping documents or canonical model (attach)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Reporting & Analytics</h2>
+    <ul>
+      <li>Required KPIs and definitions (clear formulas)</li>
+      <li>Existing dashboards or reports (link)</li>
+      <li>Data warehouse/BI tool (name & owner)</li>
+      <li>Event/telemetry list (initial events to emit)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Security & Compliance</h2>
+    <ul>
+      <li>Data classification for Agentforce data (PII/PHI/confidential/public)</li>
+      <li>Encryption requirements & key management</li>
+      <li>Retention policy (days/years) for records and logs</li>
+      <li>Compliance requirements (GDPR/SOC2/HIPAA)</li>
+      <li>Contact for security & compliance reviews</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Operational & Support</h2>
+    <ul>
+      <li>Support hours and SLA expectations</li>
+      <li>Pager/On-call contacts</li>
+      <li>Runbooks and playbooks (attach)</li>
+      <li>Maintenance windows and notification process</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>UX / Design</h2>
+    <ul>
+      <li>Brand guidelines and UI kit (link)</li>
+      <li>Existing mockups or flows (attach)</li>
+      <li>Accessibility requirements (WCAG level)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Artifacts to provide (checklist)</h2>
+    <ul>
+      <li>[ ] Process maps / user journeys</li>
+      <li>[ ] Sample CSV/JSON datasets (anonymized)</li>
+      <li>[ ] API documentation & sandbox access</li>
+      <li>[ ] Current system inventories (services & owners)</li>
+      <li>[ ] Existing reports / dashboard links</li>
+      <li>[ ] Compliance/security policy docs</li>
+      <li>[ ] UX mockups and style guide</li>
+      <li>[ ] List of key users for interviews (name, role, availability)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Acceptance criteria template (example)</h2>
+    <pre><code>Feature: Lead assignment automation
+  - Given: New lead arrives via API
+  - When: Lead meets criteria X
+  - Then: Lead is assigned to agent with role Y within 30s
+  - Test data: sample payload file reference
+  - Owner: [name]</code></pre>
+  </section>
+
+  <section class="section">
+    <h2>Delivery & timelines</h2>
+    <p>Suggested discovery deliverables and due dates:</p>
+    <ul>
+      <li>Stakeholder interviews completed — date</li>
+      <li>Artifact collection complete — date</li>
+      <li>Draft requirements document — date</li>
+      <li>Prioritized backlog / MVP — date</li>
+      <li>Prototype / UI screens — date</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Communication & governance</h2>
+    <ul>
+      <li>Weekly status meeting cadence (day/time)</li>
+      <li>Decision log owner & location (link)</li>
+      <li>Where to store artifacts (confluence/drive/repo link)</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>How to submit items</h2>
+    <ul>
+      <li>Preferred method: [sharepoint/drive/email/ticket]</li>
+      <li>File naming convention: Agentforce_&lt;artifact&gt;_&lt;team&gt;_&lt;date&gt;.&lt;ext&gt;</li>
+      <li>Contact for questions: [name, email, phone]</li>
+    </ul>
+  </section>
+
+  <footer style="margin-top:18px; border-top:1px solid #e1e4e8; padding-top:10px;">
+    <p class="meta"><strong>Notes on what I did and next steps</strong></p>
+    <p class="meta">I produced a detailed intake template and artifact checklist to collect the information we need during discovery. Use this to attach documents and to gather sign-offs.</p>
+  </footer>
+</body>
+</html>
